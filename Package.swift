@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftDependencyGraph",
-    platforms: [.macOS(.v10_13)],
+    platforms: [.macOS(.v10_15)],
     products: [
         .executable(name: "swift-dependency-graph", targets: ["swift-dependency-graph"]),
     ],
